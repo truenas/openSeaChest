@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+# export DH_VERBOSE = 1
+export CFLAGS = -Wall -Wextra -c -std=gnu99
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	sh -c "\
+		cd Make/gcc || exit 1; \
+		make release || exit 1; \
+	"
+
+override_dh_auto_install:
+	sh -c "\
+		mkdir -p debian/openseachest/usr/local/bin; \
+		cp -a Make/gcc/openseachest_exes/* debian/openseachest/usr/local/bin/; \
+	"
+
+override_dh_shlibdeps:
+
+override_dh_usrlocal:
+
+override_dh_auto_clean:
+
+override_dh_auto_test:

@@ -1,0 +1,15 @@
+Source: openseachest
+Section: admin
+Priority: optional
+Maintainer: Waqar Ahmed <waqar@ixsystems.com>
+Build-Depends:	build-essential,
+		debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: http://github.com/truenas/openseachest
+
+Package: openseachest
+Architecture: any
+Depends:	${misc:Depends},
+		${shlibs:Depends}
+Description: OpenSeaChest package
+ This package includes Cross platform utilities useful for performing various operations on SATA, SAS, NVMe, and USB storage devices.
