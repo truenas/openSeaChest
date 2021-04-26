@@ -1,0 +1,138 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2014-2019, Seagate Technology LLC and/or its Affiliates
+           2014-2019, Seagate Technology LLC and/or its Affiliates, br
+           \(co
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ LICENSE.md
+
+Files: opensea-transport/*
+Copyright: 2012-2020, Seagate Technology LLC and/or its Affiliates
+License: MPL-2
+
+Files: LICENSE.md
+       Make/gcc/Makefile
+       Make/gcc/Makefile.openSeaChest_firmware
+       Make/gccWin/Makefile.gccWin
+       Make/vmware/*
+       README.md
+       docs/openSeaChest_Basics.292.txt
+       docs/openSeaChest_Configure.1182.txt
+       docs/openSeaChest_Erase.212.txt
+       docs/openSeaChest_Firmware.282.txt
+       docs/openSeaChest_Format.152.txt
+       docs/openSeaChest_GenericTests.191.txt
+       docs/openSeaChest_Info.161.txt
+       docs/openSeaChest_LogParser.101.txt
+       docs/openSeaChest_Logs.121.txt
+       docs/openSeaChest_NVMe.111.txt
+       docs/openSeaChest_PassthroughTest.021.txt
+       docs/openSeaChest_PowerControl.201.txt
+       docs/openSeaChest_SMART.1132.txt
+       docs/openSeaChest_Security.211.txt
+       include/*
+       src/*
+       utils/*
+Copyright: Not Reported
+           2014, Seagate
+           2012-2020, Seagate Technology LLC and/or its Affiliates
+License: MPL-2
+
+Files: opensea-transport/.travis.yml
+       opensea-transport/.whitesource
+       opensea-transport/Make/UEFI/*
+       opensea-transport/Make/VS.2013/*
+       opensea-transport/Make/VS.2015/*
+       opensea-transport/Make/VS.2017/*
+       opensea-transport/Make/prj/*
+       opensea-transport/include/csmisas.h
+       opensea-transport/opensea-transport-doxygen-generator
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ opensea-transport/LICENSE.md
+
+Files: opensea-operations/.travis.yml
+       opensea-operations/.whitesource
+       opensea-operations/Make/UEFI/*
+       opensea-operations/Make/VS.2013/*
+       opensea-operations/Make/VS.2015/*
+       opensea-operations/Make/VS.2017/*
+       opensea-operations/Make/prj/*
+       opensea-operations/opensea-operations-doxygen-generator
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ opensea-operations/LICENSE.md
+
+Files: opensea-common/*
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ opensea-common/LICENSE.md
+
+Files: opensea-common/LICENSE.md
+       opensea-common/Make/gcc/*
+       opensea-common/Make/gccWin/*
+       opensea-common/Make/vmware/*
+       opensea-common/README.md
+       opensea-common/include/*
+       opensea-common/src/*
+       opensea-common/update-version.sh
+Copyright: 2012-2020, Seagate Technology LLC and/or its Affiliates
+License: MPL-2
+
+Files: wingetopt/*
+License: BSD-2-clause-NetBSD or ISC
+Comment: No explicit license found, using license(s) from:
+ wingetopt/LICENSE
+
+Files: wingetopt/LICENSE
+       wingetopt/README.md
+       wingetopt/src/getopt.c
+Copyright: 2000, The NetBSD Foundation, Inc
+           2002, Todd C. Miller <Todd.Miller@courtesan.com>
+License: BSD-2-clause-NetBSD or ISC
+
+Files: src/EULA.c
+Copyright: 2007, Free Software Foundation, Inc. <http://fsf.org/>\n
+           1995-2013, Jean-loup Gailly and Mark Adler\n
+           2014-2018, Seagate Technology LLC and/or its Affiliates
+           1992-2019, The FreeBSD Project.\n
+           2000, The NetBSD Foundation, Inc.
+           2002, Todd C. Miller <Todd.Miller@courtesan.com>
+License: Apache-2 or MPL-2 or Zlib
+
+Files: opensea-transport/include/of_nvmeIoctl.h
+Copyright: Integrated Device Technology, Inc
+           Intel Corporation
+           LSI Corporation
+License: BSD-2-clause
+
+Files: Make/gcc/build_recipes/rpm/OpenSeaChest.spec
+License: GPL
+
+Files: debian/*
+License: MPL-2
+Comment: No explicit license found, using license(s) from:
+ LICENSE.md
+
+License: Apache-2
+Comment: Add the corresponding license text here
+
+License: BSD-2-clause
+Comment: Add the corresponding license text here
+
+License: BSD-2-clause-NetBSD
+Comment: Add the corresponding license text here
+
+License: GPL
+Comment: Add the corresponding license text here
+
+License: ISC
+Comment: Add the corresponding license text here
+
+License: MPL-2
+Comment: Add the corresponding license text here
+
+License: Zlib
+Comment: Add the corresponding license text here
