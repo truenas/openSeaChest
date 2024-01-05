@@ -1,5 +1,5 @@
 #!/bin/bash -ex
-VERSION=23.03.1
+VERSION=23.12
 REVISION=1
 
 
