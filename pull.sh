@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 VERSION=23.12
-REVISION=1
+REVISION=2
 
 
 wget http://deb.debian.org/debian/pool/main/o/openseachest/openseachest_$VERSION-$REVISION.debian.tar.xz
